@@ -1,0 +1,103 @@
+.orb_1 {
+  animation-name: orb_1;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  opacity: 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes orb_1 {
+  from {
+    transform: scale(1.5);
+    background: #8fb2e7;
+    animation-delay: 1s;
+  }
+  to {
+    transform: scale(2.6);
+    background: #8fb2e7;
+  }
+}
+.orb_3 {
+  animation-name: orb_3;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  opacity: 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes orb_3 {
+  from {
+    transform: scale(1.5);
+    background: #8fb2e7;
+    animation-delay: 1s;
+  }
+  to {
+    transform: scale(2.3);
+    background: #8fb2e7;
+  }
+}
+
+.orb_2 {
+  content: "21";
+  opacity: 50%;
+  animation-name: orb_2;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+@keyframes orb_2 {
+  from {
+    transform: scale(1.5);
+    background: #8fb2e7;
+    animation-delay: 1s;
+  }
+  to {
+    transform: scale(2);
+    background: #8fb2e7;
+  }
+}
+
+.breathe:after {
+  content: "";
+  animation: breathe 8s linear infinite;
+}
+
+@keyframes breathe {
+  0% {
+    content: "IN";
+  }
+  10% {
+    content: "IN";
+  }
+  20% {
+    content: "IN";
+  }
+  30% {
+    content: "IN";
+  }
+  40% {
+    content: "IN";
+  }
+  50% {
+    content: "IN";
+  }
+  60% {
+    content: "OUT";
+  }
+  70% {
+    content: "OUT";
+  }
+  80% {
+    content: "OUT";
+  }
+  90% {
+    content: "OUT";
+  }
+}
